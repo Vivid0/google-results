@@ -133,10 +133,8 @@ main p {
 
 #results {
     margin-left: 185px;
-}
-
-.arrow {
-    color: var(--google-green);
+    margin-bottom: 20px;
+    width: 600px;
 }
 
 main a {
@@ -144,11 +142,117 @@ main a {
 }
 
 .big-link {
-    font-size: 18px;
+    font-size: 17px;
+    /* font-family: Arial,sans-serif; */
 }
 
 .sub-link {
+    display: inline-block;
+    max-width: 520px;
     color: var(--google-green);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.arrow {
+    display: inline-block;
+}
+
+main svg {
+    fill: var(--google-green);
+}
+
+.dropdown-content {
+    display: none;
+}
+
+rect.dropbtn {
+    stroke:#fff;
+    fill:#fff;
+    fill-opacity:0;
+    stroke-opacity:0;    
+}
+
+.detail {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 520px;
+    color: rgba(0,0,0,0.6);
+    margin-bottom: 35px;
+}
+
+.date {
+    color: rgba(0,0,0,0.6);
+}
+
+#google-nav {
+    margin-left: 310px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+td {
+    padding: 0;
+}
+
+td a {
+    color: var(--google-blue);
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+.big-g {
+    background: url("img/google.png") no-repeat;
+    background-size: 110px;
+    background-position: 0px 0;
+    width: 29px;
+    height: 54px;
+}
+
+.red-o {
+    background: url("img/google.png") no-repeat;
+    background-size: 110px;
+    background-position: -29px 0;
+    width: 18px;
+    height: 42px;
+}
+
+.cur {
+    text-align: center;
+    padding: 0;
+}
+
+.yellow-o {
+    background: url("img/google.png") no-repeat;
+    background-size: 110px;
+    background-position: -47px 0;
+    width: 18px;
+    height: 42px;
+}
+
+.mid {
+    text-align: center;
+}
+
+.gle {
+    background: url("img/google.png") no-repeat, url("img/right.svg") no-repeat;
+    background-size: 110px, 20px;
+    background-position: -65px 0, right top;
+    width: 80px;
+    height: 42px;
+}
+
+.next {
+    text-align: end;
 }
 
 footer {
