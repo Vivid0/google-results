@@ -126,6 +126,7 @@ nav a:hover {
 
 
 /* main */
+
 main p {
     margin-left: 177px;
     color: rgba(0,0,0,0.6);
@@ -191,6 +192,7 @@ rect.dropbtn {
 
 #google-nav {
     margin-left: 310px;
+    margin-bottom: 30px;
 }
 
 table {
@@ -255,14 +257,12 @@ td a:hover {
     text-align: end;
 }
 
+/* footer */
+
 footer {
     background-color: rgba(0,0,0,0.05);
     border-top: solid 1px rgba(0,0,0,0.1);
     color: rgba(0,0,0,0.6);
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
 }
 
 footer a{
